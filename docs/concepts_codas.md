@@ -2,7 +2,7 @@
 
 [IMAGE: ICON TO REPRESENT CODA? MAYBE REUSUABLE IN OTHER PLACES?]
 
-A coda generally refers to “the concluding passage of music, typically forming an addition to the basic structure”. In this case Coda is the receipt of a concluding transaction. When an Envoy has posted an Invocation to a device, the device generates a Coda and sends it to the `codaEndpoints` specified by the Invocation.
+A coda generally refers to "the concluding passage of music, typically forming an addition to the basic structure". In this case Coda is the receipt of a concluding transaction. When an Envoy has posted an Invocation to a device, the device generates a Coda and sends it to the `codaEndpoints` specified by the Invocation.
 
 The Coda can be used as a verifiable receipt that a device received and performed an Invocation. The fields of a Coda are:
 
@@ -17,9 +17,9 @@ The Coda can be used as a verifiable receipt that a device received and performe
 Example (using JSON encoding)
 ```json
 {
-    “invocation”: 982387642302386,
-    “status”: 200,
-    “more”: false,
-    “intents”: [ ... ]
+    "invocation": 982387642302386,
+    "status": 200,
+    "more": false,
+    "intents": [ ... ]
 }
 ```
