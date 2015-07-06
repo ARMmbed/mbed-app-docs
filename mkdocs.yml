@@ -5,7 +5,6 @@ docs_dir: docs
 pages:
 - ['index.md', 'Getting Started']
 - ['what_is_envoy.md', 'What is Envoy?']
-- ['use_cases.md', 'Use Cases']
 - ['concepts_interaction.md', 'Concepts', 'Interaction Flow']
 - ['concepts_intents.md', 'Concepts', 'Intents']
 - ['concepts_inovcations.md', 'Concepts', 'Invocations']
