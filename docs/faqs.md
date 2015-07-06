@@ -35,3 +35,15 @@ First, check if the registry contains an Intent that matches the action you’re
 If there isn’t an Intent that matches exactly, but there is one that is close, consider extending that Intent instead of creating an entirely new one. If your changes might be useful to everyone in the future, then consider creating a revised version with a higher version number for inclusion into the registry. 
 
 When your Intent is ready for publication to the registry, email envoy@mbed.org and we’ll review and publish your Intent (if it's suitable)!
+
+
+### How do I get the Envoy App?
+
+The Envoy app is available from the Apple App Store [LINK]. Currently only iOS is supported. 
+
+### How do I use Envoy with mbed OS?
+
+The Envoy client library for mbed OS is available via the Yotta registry [LINK TO REGISTRY].
+
+You can find the client library documentation here [LINK TO DOCS]
+

@@ -18,9 +18,9 @@ Envoy uses Bluetooth Low Energy (BLE) technology to communicate configuration in
 Your users will need to have the Envoy application installed on their smartphone or tablet. The Envoy application is available for free from the Apple App Store [LINK]. 
 
 
-# Example Use Cases
+## Example Use Cases
 
-## WiFi Configuration
+### WiFi Configuration
 
 [IMAGE: WIFI PROVISIOING / COFEE MACHINE USE CASE?]
 
@@ -36,7 +36,7 @@ Using Envoy can simplify this process, making the selection and authentication o
 To find out how to use Envoy to configure your WiFi-enabled device, see the WiFi tutorial [LINK TO WIFI TUTORIAL HERE].
 
 
-## Complex Configuration
+### Complex Configuration
 
 [IMAGE: DEVICE IN CONVERSATION TO GET CONFIGURATION?]
 

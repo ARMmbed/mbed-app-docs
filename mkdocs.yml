@@ -4,13 +4,8 @@ docs_dir: docs
 
 pages:
 - ['index.md', 'Getting Started']
-- ['what_is_envoy.md', 'What is Envoy?']
-- ['concepts_interaction.md', 'Concepts', 'Interaction Flow']
-- ['concepts_intents.md', 'Concepts', 'Intents']
-- ['concepts_inovcations.md', 'Concepts', 'Invocations']
-- ['concepts_codas.md', 'Concepts', 'Codas']
-- ['concepts_constraints.md', 'Concepts', 'Constraints']
-- ['design_principles.md', 'Design Principles']
-- ['protocol.md', 'Protocol']
-- ['downloads.md', 'Downloads']
+- ['what_is_envoy.md', 'About Envoy', "What's Envoy?"]
+- ['concepts.md', 'About Envoy', 'Concepts']
+- ['design_principles.md', 'About Envoy', 'Design Principles']
+- ['protocol.md', 'About Envoy', 'Protocol']
 - ['faqs.md', 'FAQs']
