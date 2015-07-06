@@ -26,9 +26,9 @@ To further compress the resources that are transferred from your device, Envoy d
 
 Unlike JSON, CBOR supports semantic tagging of values in the serialisation. Semantic tags provide a hint to the decoder as to what the intended format of value is. You can think of this as a kind of type-hint for the decoder. Envoy uses the following semantic tags for the resource types described above:
 
-*Intent* - has semantic tag 16397
-*Invocation* - has semantic tag 16398
-*Coda* - has semantic tag 16399
-*ConstraintSet* - has semantic tag 16426
+**Intent** - has semantic tag 16397
+**Invocation** - has semantic tag 16398
+**Coda** - has semantic tag 16399
+**ConstraintSet** - has semantic tag 16426
 
 

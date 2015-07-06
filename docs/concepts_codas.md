@@ -14,7 +14,7 @@ The Coda can be used as a verifiable receipt that a device received and performe
 
 `intents` - a set of Intents that are now being offered as a result of performing the action. Often performing an action will result in a change in the device's behaviour. For example, after an unlock Intent is invoked a door might subsequently offer a lock Intent.
 
-Example (using JSON encoding)
+**Example** (using JSON encoding)
 ```json
 {
     "invocation": 982387642302386,

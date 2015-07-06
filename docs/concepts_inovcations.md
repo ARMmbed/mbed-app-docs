@@ -12,7 +12,7 @@ The Invocation is then posted to the endpoint that was specified in the Intent (
 
 `codaEndpoints` - a list of addresses to which the result of the action should be posted (in the form of a Coda[LINK]). This doesn’t necessarily have to be an address on the Envoy that created the invocation, but there are user experience downsides when you do not notify the Envoy directly about the result. This is analogous to the webhook model often found in web service development. 
 
-*Example* (using JSON encoding)
+**Example** (using JSON encoding)
 ```json
 {
     "id": 982387642302386,

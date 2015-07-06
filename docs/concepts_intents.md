@@ -24,7 +24,7 @@ In order to promote reuse of Intents and to reduce the size of Intents that the 
 
 Intents are immutable once published to the registry. To make changes to a published Intent a new version with a higher version number must be created. Version numbers are a monotonically increasing integer value. 
 
-*Example* (using JSON encoding)
+**Example** (using JSON encoding)
 ```json
 {
     "url": "http://example.com/intents/wifi",

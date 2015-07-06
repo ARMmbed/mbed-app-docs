@@ -4,9 +4,9 @@ A device will often require parameters for performing an action: a thermostat mi
 
 This is captured by a set of constraints, which includes things like minimum and maximum values, data types, data format, title and description. See the constraints API documentation [LINK TO CONSTRAINTS DOCUMENTATION] for full details.
 
-**Note: not all of the constraints need to be transmitted from the device. There is a central repository of Intents that devices should reuse and build upon. [LINK TO INTENT REGISTRY] **
+*Note: not all of the constraints need to be transmitted from the device. There is a central repository of Intents that devices should reuse and build upon. [LINK TO INTENT REGISTRY]*
 
-*Example* (using JSON encoding)
+**Example** (using JSON encoding)
 {
     "type": "dictionary",
     "title": "WiFi Access",

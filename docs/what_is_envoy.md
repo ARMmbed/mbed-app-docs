@@ -1,6 +1,6 @@
 # What is Envoy?
 
-*en·voy* – “accredited messenger or representative.”
+**en·voy** – “accredited messenger or representative.”
 
 Envoy is your representative in the digital world; your personal assistant in the business of device interactions; your filter on attention seeking technology. Envoy lets you focus on what’s important.
 
