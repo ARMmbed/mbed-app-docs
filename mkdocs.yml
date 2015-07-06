@@ -5,6 +5,7 @@ docs_dir: docs
 pages:
 - ['index.md', 'Getting Started']
 - ['what_is_envoy.md', 'About Envoy', "What's Envoy?"]
+- ['use_cases.md', 'About Envoy', 'Example Use Cases']
 - ['concepts.md', 'About Envoy', 'Concepts']
 - ['design_principles.md', 'About Envoy', 'Design Principles']
 - ['protocol.md', 'About Envoy', 'Protocol']
