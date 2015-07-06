@@ -16,7 +16,7 @@ Envoy uses the service UUID 0xFFFF. The Envoy service is built on top of the BLE
 
 ### Resource Serialisation for BLE
 
-**Note: if you are using the mbed OS library for Envoy, the library will handle encoding and decoding for you - so you can skip this section.**
+*Note: if you are using the mbed OS library for Envoy, the library will handle encoding and decoding for you - so you can skip this section.*
 
 When an Envoy interacts with your device over a BLE connection, the resources described in this documentation are encoded as CBOR [http://cbor.io/]. This efficient encoding uses a binary format suitable for constrained embedded devices. The encoded resources are then sent to and from your device using the BLE Block Transfer protocol.
 
@@ -27,8 +27,11 @@ To further compress the resources that are transferred from your device, Envoy d
 Unlike JSON, CBOR supports semantic tagging of values in the serialisation. Semantic tags provide a hint to the decoder as to what the intended format of value is. You can think of this as a kind of type-hint for the decoder. Envoy uses the following semantic tags for the resource types described above:
 
 **Intent** - has semantic tag 16397
+
 **Invocation** - has semantic tag 16398
+
 **Coda** - has semantic tag 16399
+
 **ConstraintSet** - has semantic tag 16426
 
 
