@@ -1,0 +1,17 @@
+site_name: Envoy
+
+docs_dir: docs
+
+pages:
+- ['getting_started.md', 'Getting Started']
+- ['what_is_envoy.md', 'What is Envoy?']
+- ['use_cases.md', 'Use Cases']
+- ['concepts_interaction.md', 'Concepts', 'Interaction Flow']
+- ['concepts_intents.md', 'Concepts', 'Intents']
+- ['concepts_inovcations.md', 'Concepts', 'Invocations']
+- ['concepts_codas.md', 'Concepts', 'Codas']
+- ['concepts_constraints.md', 'Concepts', 'Constraints']
+- ['design_principles.md', 'Design Principles']
+- ['protocol.md', 'Protocol']
+- ['downloads.md', 'Downloads']
+- ['faqs.md', 'FAQs']
