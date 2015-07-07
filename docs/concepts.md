@@ -19,7 +19,7 @@ A devices advertises a set of Intents that can currently be performed. Specifica
 `action` - a globally namespaced identifier for the type of action, of the form `<action-id>:<version>` (e.g. `com.arm.connectivity.wifi:1`). Action identifiers are generic, so there should be one action identifier for "opening a door", and so on. 
 
 `constraints` - (optional) a description of the parameters required for the action, including constraints on possible values, such as type, minimum value and maximum value.
-Each action ID is associated with some standard set of constraints (and services exist for looking up such constraints), and any constraints in the Intent are in addition to this. See the API docs for full details [LINK].
+Each `action` ID is associated with some standard set of constraints (and services exist for looking up such constraints), and any constraints in the Intent are in addition to this. See the API docs for full details [LINK].
 
 `authority` - (optional) a list of possible authorities that must authorize the invocation of the action. See the API docs for authority [LINK TO API DOCS].
 
@@ -30,7 +30,7 @@ Each action ID is associated with some standard set of constraints (and services
 `knownParameters` - (optional) a list of (possibly partial) parameter sets that might help the Envoy to generate a UI. You can think of these as auto-fill fields that you might find when filling in a form in a web browser. They are intended to provide the user with a fast way to fill out forms with known or pre-entered values. The Envoy may cache values provided via known parameters. 
 
 
-In order to promote reuse of Intents and to reduce the size of Intents that the device must store and advertise, the Envoy will also fetch any Intent with a matching action from the Intent registry [LINK TO REGISTRY] and merge the constraints of the Intent provided by the device with the Intent from the registry. Read more about the Intent registry, including how to add new Intents to the registry, here [LINK TO MORE DETAILS REGISTRY SECTION].
+In order to promote reuse of Intents and to reduce the size of Intents that the device must store and advertise, the Envoy will also fetch any Intent with a matching action from the [Intent registry](/faqs/#what-is-the-intent-registry) and merge the constraints of the Intent provided by the device with the Intent from the registry. Read more about the Intent registry, including how to add new Intents to the registry, [here](/faqs/#how-do-i-add-an-intent-to-the-intent-registry).
 
 Intents are immutable once published to the registry. To make changes to a published Intent a new version with a higher version number must be created. Version numbers are a monotonically increasing integer value. 
 
@@ -51,7 +51,7 @@ Intents are immutable once published to the registry. To make changes to a publi
 
 ## Invocations
 
-When an Envoy wants to perform an action advertised as an Intent by a device, it generates an Invocation resource that encapsulates the parameters that the device should use for performing the action. It also provides some proof that the Envoy has permission to perform the action it’s requesting. More on the proof mechanism here [LINK].
+When an Envoy wants to perform an action advertised as an Intent by a device, it generates an Invocation resource that encapsulates the parameters that the device should use for performing the action. It also provides some proof that the Envoy has permission to perform the action it’s requesting. More on the proof mechanism [here](/design_principles/#security-privacy).
 
 The Invocation is then posted to the endpoint that was specified in the Intent (to make the action happen). An Invocation has the following properties:
 
@@ -61,7 +61,7 @@ The Invocation is then posted to the endpoint that was specified in the Intent (
 
 `parameters` - a set of values that fulfill the constraints described by the Intent. These are the values that the device should use to perform the action.
 
-`codaEndpoints` - a list of addresses to which the result of the action should be posted (in the form of a Coda[LINK]). This doesn’t necessarily have to be an address on the Envoy that created the invocation, but there are user experience downsides when you do not notify the Envoy directly about the result. This is analogous to the webhook model often found in web service development. 
+`codaEndpoints` - a list of addresses to which the result of the action should be posted (in the form of a [Coda](/concepts/#codas)). This doesn’t necessarily have to be an address on the Envoy that created the invocation, but there are user experience downsides when you do not notify the Envoy directly about the result. This is analogous to the webhook model often found in web service development. 
 
 **Example** (using JSON encoding)
 ```json
@@ -82,7 +82,7 @@ A device will often require parameters for performing an action: a thermostat mi
 
 This is captured by a set of constraints, which includes things like minimum and maximum values, data types, data format, title and description. See the constraints API documentation [LINK TO CONSTRAINTS DOCUMENTATION] for full details.
 
-*Note: not all of the constraints need to be transmitted from the device. There is a central repository of Intents that devices should reuse and build upon. [LINK TO INTENT REGISTRY]*
+*Note: not all of the constraints need to be transmitted from the device. There is a central [repository if Intents](/faqs/#what-is-the-intent-registry) that devices should reuse and build upon.*
 
 **Example** (using JSON encoding)
 ```json

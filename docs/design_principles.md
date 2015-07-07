@@ -5,7 +5,7 @@ RESTful
 
 The objects we deal with during an Envoy interaction are all modeled as resources, very similar to the practices used in RESTful web service design. Similarly, Envoy interactions use GET, PUT, POST and DELETE for retrieval and modification of these resources. 
 
-All resources, including certificates, have a URI. Often this will be addressable, but this is not a requirement. There’s lots of great information about RESTful design on the web [LINK TO http://en.wikipedia.org/wiki/Representational_state_transfer]. The only things that don't have URIs are POSTed interaction elements, such as invocations or codas.
+All resources, including certificates, have a URI. Often this will be addressable, but this is not a requirement. There’s lots of great information about RESTful design on the [web](http://en.wikipedia.org/wiki/Representational_state_transfer). The only things that don't have URIs are POSTed interaction elements, such as invocations or codas.
 
 ## Asynchronous
 

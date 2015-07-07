@@ -20,11 +20,11 @@ TODO
 
 ### How are constraints validated?
 
-All constraints for an Intent must be satisfied (AND only, no OR/XOR). Actions have a set of known constraints that are stored in a central registry [LINK TO REGISTRY]. The registry is intended to store a human or semantic description of the action and an icon that represents the action. This allows Envoy to quickly support new actions by importing the corresponding constraints, while also providing a cue for advanced UIs for particular interactions.
+All constraints for an Intent must be satisfied (AND only, no OR/XOR). Actions have a set of known constraints that are stored in a central [registry](/faqs/#what-is-the-intent-registry). The registry is intended to store a human or semantic description of the action and an icon that represents the action. This allows Envoy to quickly support new actions by importing the corresponding constraints, while also providing a cue for advanced UIs for particular interactions.
 
 ### What is the Intent registry?
 
-The Intent registry is a centralised repository that serves a default Constraint Set for an associated Intent action. For example, the Intent registry serves a constraint set that describes the SSID and password fields for connecting to a WiFi network when queried for the com.arm.connectivity.wifi action.
+The Intent registry is a centralised repository that serves a default Constraint Set for an associated Intent action. For example, the Intent registry serves a constraint set that describes the SSID and password fields for connecting to a WiFi network when queried for the `com.arm.connectivity.wifi action`.
 
 The Intent registry is also able to handle localization of titles and descriptions for properties, a job that would otherwise be left to the devices. 
 
