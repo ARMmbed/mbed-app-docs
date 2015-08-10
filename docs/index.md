@@ -8,7 +8,7 @@ Looking to get started quickly? You’ll need a smartphone, a web browser, and a
 4. Let us know what you think!
 
 
-Alternatively, to get ot know Envoy in detail, here's a good place to start:
+Alternatively, to get to know Envoy in detail, here's a good place to start:
 
 [What is Envoy?](what_is_envoy.md)
 
