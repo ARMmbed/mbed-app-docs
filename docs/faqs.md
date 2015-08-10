@@ -20,7 +20,7 @@ TODO
 
 ### How are constraints validated?
 
-All constraints for an Intent must be satisfied (AND only, no OR/XOR). Actions have a set of known constraints that are stored in a central [registry](/faqs/#what-is-the-intent-registry). The registry is intended to store a human or semantic description of the action and an icon that represents the action. This allows Envoy to quickly support new actions by importing the corresponding constraints, while also providing a cue for advanced UIs for particular interactions.
+All constraints for an Intent must be satisfied (AND only, no OR/XOR). Actions have a set of known constraints that are stored in a central [registry](faqs.md#what-is-the-intent-registry). The registry is intended to store a human or semantic description of the action and an icon that represents the action. This allows Envoy to quickly support new actions by importing the corresponding constraints, while also providing a cue for advanced UIs for particular interactions.
 
 ### What is the Intent registry?
 

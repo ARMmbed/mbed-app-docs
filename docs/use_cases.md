@@ -7,8 +7,9 @@ A simple example of configuration data that is often required during the setup o
 
 The action of joining a WiFi network typically requires two pieces of information:
 
-ssid - the name of the network that should be joined.
-key - the ‘password’ to access the network. 
+`ssid` - the name of the network that should be joined.
+
+`key` - the ‘password’ to access the network. 
 
 Using Envoy can simplify this process, making the selection and authentication of preferred WiFi networks as simple as a tap from a list of options. Using Envoy enables reuse of previously entered credentials, to avoid re-entry when configuring new devices for the same network.
 

@@ -2,6 +2,10 @@ site_name: Envoy
 
 docs_dir: docs
 
+theme: readthedocs
+
+use_directory_urls: true
+
 pages:
 - ['index.md', 'Getting Started']
 - ['what_is_envoy.md', 'About Envoy', "What's Envoy?"]
@@ -10,3 +14,4 @@ pages:
 - ['design_principles.md', 'About Envoy', 'Design Principles']
 - ['protocol.md', 'About Envoy', 'Protocol']
 - ['faqs.md', 'FAQs']
+

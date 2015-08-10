@@ -27,4 +27,4 @@ The home URL must offer a home resource which contains:
 
 ## Security & Privacy
 
-Security is enforced by cryptographically signing resources. Each Envoy user identity has an associated key pair, which must form part of a certificate chain for a device to allow an action to be performed (if the device requires authentication). Public key cryptography is preferred over shared keys.
+Security is enforced by cryptographically signing resources. Each Envoy user identity has one or more associated key pairs, which must form part of a certificate chain for a device to allow an action to be performed (if the device requires authentication). Public key cryptography is preferred over shared keys.
