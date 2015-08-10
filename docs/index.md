@@ -10,9 +10,9 @@ Looking to get started quickly? You’ll need a smartphone, a web browser, and a
 
 Alternatively, to get ot know Envoy in detail, here's a good place to start:
 
-[What is Envoy?](what_is_envoy)
+[What is Envoy?](what_is_envoy.md)
 
-[See some examples](use_cases)
+[See some examples](use_cases.md)
 
 [Get the Envoy app](faqs.md#how-do-i-get-the-envoy-app)
 
