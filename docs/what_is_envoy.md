@@ -15,4 +15,4 @@ Envoy uses Bluetooth Low Energy (BLE) technology to communicate configuration in
 
 ### What do my customers need to use Envoy?
 
-Your users will need to have the Envoy application installed on their smartphone or tablet. The Envoy application is available for free from the Apple App Store [LINK]. 
+Your users will need to have the Envoy application installed on their smartphone or tablet. The Envoy application is available for [free](faqs.md#how-do-i-get-the-envoy-app). 
