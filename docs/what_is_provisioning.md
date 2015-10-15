@@ -11,4 +11,4 @@ The mbed Provisioning App uses Bluetooth Low Energy (BLE) technology to communic
 
 ### What do my customers need to setup their devices?
 
-Your users will need to have the mbed Provisioning App installed on their smartphone or tablet. The application is available for [free](faqs.md#how-do-i-get-the-envoy-app). 
+Your users will need to have the mbed Provisioning App installed on their smartphone or tablet. The application is available for [free](faqs.md#how-do-i-get-the-app). 
