@@ -1,4 +1,4 @@
-site_name: Envoy
+site_name: mbed Provisioning App
 
 docs_dir: docs
 
@@ -8,10 +8,10 @@ use_directory_urls: true
 
 pages:
 - ['index.md', 'Getting Started']
-- ['what_is_envoy.md', 'About Envoy', "What's Envoy?"]
-- ['use_cases.md', 'About Envoy', 'Example Use Cases']
-- ['concepts.md', 'About Envoy', 'Concepts']
-- ['design_principles.md', 'About Envoy', 'Design Principles']
-- ['protocol.md', 'About Envoy', 'Protocol']
+- ['what_is_provisioning.md', 'About', "What's the mbed Provisioning App?"]
+- ['use_cases.md', 'About', 'Example Use Cases']
+- ['concepts.md', 'About', 'Concepts']
+- ['design_principles.md', 'About', 'Design Principles']
+- ['protocol.md', 'About', 'Protocol']
 - ['faqs.md', 'FAQs']
 
