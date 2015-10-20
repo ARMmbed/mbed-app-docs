@@ -19,7 +19,7 @@ A device advertises a set of Intents that can currently be performed. Specifical
 `constraints` - (optional) a description of the parameters required for the action, including constraints on possible values, such as type, minimum value and maximum value.
 Each `action` ID is associated with some standard set of constraints (and services exist for looking up such constraints), and any constraints in the Intent are in addition to this. See the [API docs](https://github.com/ARMmbed/voytalk-cpp) for full details.
 
-`authority` - (optional) a list of possible authorities that must authorize the invocation of the action. See the API docs for authority [LINK TO API DOCS].
+`authority` - (optional) a list of possible authorities that must authorize the invocation of the action. Note: this field is not supported by implementations yet.
 
 `endpoint` - the address at which the action can be invoked. This is a URL specifying where the parameters should be sent to make the advertised action happen. It doesn’t necessarily have to be an address on the device that is advertising the Intent, but often will be. This is analogous to the webhook model often found in web service development.
 
