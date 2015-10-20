@@ -1,6 +1,8 @@
 
 ## WiFi Configuration
 
+![Wifi](../IMG_Assets/IMG_WiFiConfig (envoy).png)
+
 A simple example of configuration data that is often required during the setup of a new device is WiFi credentials. Typing in details repeatedly, and the struggle to remember the right password, are familiar to most people.
 
 The action of joining a WiFi network typically requires two pieces of information:
@@ -15,8 +17,6 @@ To find out how to use the mbed Provisioning App to configure your WiFi-enabled 
 
 
 ## Complex Configuration
-
-[IMAGE: DEVICE IN CONVERSATION TO GET CONFIGURATION?]
 
 Configuring WiFi is great - but for most products that’s not enough. That’s why the mbed Provisioning App allows you to define the configuration details that you need from your users. 
 
