@@ -1,6 +1,6 @@
 # The Interaction Flow
 
-[FLOW DIAGRAM HERE]
+![Flow](../IMG_Assets/IMG_Flow (envoy).png)
 
 When a device has some configuration that the user may change, it starts to advertise its presence via BLE. These advertisements detail the type of configuration that the device wants, and the permissions that a user must have to change the configuration.
 
