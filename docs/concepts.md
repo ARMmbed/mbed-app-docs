@@ -17,7 +17,7 @@ A device advertises a set of Intents that can currently be performed. Specifical
 `action` - a globally namespaced identifier for the type of action, of the form `<action-id>:<version>` (e.g. `com.arm.connectivity.wifi:1`). Action identifiers are generic, so there should be one action identifier for "opening a door", and so on. 
 
 `constraints` - (optional) a description of the parameters required for the action, including constraints on possible values, such as type, minimum value and maximum value.
-Each `action` ID is associated with some standard set of constraints (and services exist for looking up such constraints), and any constraints in the Intent are in addition to this. See the [API docs](https://github.com/ARMmbed/voytalk-cpp) for full details.
+Each `action` ID is associated with some standard set of constraints (and services exist for looking up such constraints), and any constraints in the Intent are in addition to this. See the [API docs](https://github.com/ARMmbed/equip-cpp) for full details.
 
 `authority` - (optional) a list of possible authorities that must authorize the invocation of the action. Note: this field is not supported by implementations yet.
 
@@ -89,7 +89,7 @@ The Invocation is then posted to the endpoint that was specified in the Intent (
 
 A device will often require parameters for performing an action: a thermostat might need to know the SSID and password for a network so it can get internet access; a lighting system might need to know how long to keep the lights on after you leave a room; a coffee machine might let you configure how much water you like in your coffee. The number of different configuration options is endless. mbed Provisioning App provides a flexible system that allows you to describe what the valid set of parameters to your device looks like without having to enumerate everything.
 
-This is captured by a set of constraints, which includes things like minimum and maximum values, data types, data format, title and description. See the constraints [API documentation](https://github.com/ARMmbed/voytalk-cpp) for full details.
+This is captured by a set of constraints, which includes things like minimum and maximum values, data types, data format, title and description. See the constraints [API documentation](https://github.com/ARMmbed/equip-cpp) for full details.
 
 *Note: not all of the constraints need to be transmitted from the device. There is a central [repository if Intents](faqs.md#what-is-the-intent-registry) that devices should reuse and build upon.*
 

@@ -25,7 +25,7 @@ When an app interacts with your device over a BLE connection, the resources desc
 
 CBOR is a document serialisation format heavily inspired by the JSON data model: numbers, strings, arrays, maps (called objects in JSON), and a few values such as false, true, and null.
 
-To further compress the resources that are transferred from your device, mbed Provisioning App defines a mapping from string key names as used in JSON, e.g. “`action`” and “`codaEndpoints`” to a more efficient integer representation for use with CBOR. This mapping can be found in the headers for the [mbed OS library](https://github.com/ARMmbed/voytalk-cpp).
+To further compress the resources that are transferred from your device, mbed Provisioning App defines a mapping from string key names as used in JSON, e.g. “`action`” and “`codaEndpoints`” to a more efficient integer representation for use with CBOR. This mapping can be found in the headers for the [mbed OS library](https://github.com/ARMmbed/equip-cpp).
 
 Unlike JSON, CBOR supports semantic tagging of values in the serialisation. Semantic tags provide a hint to the decoder as to what the intended format of value is. You can think of this as a kind of type-hint for the decoder. The mbed Provisioning App expects the following semantic tags for the resource types described above:
 

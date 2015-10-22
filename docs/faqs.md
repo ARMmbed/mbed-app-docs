@@ -39,5 +39,5 @@ The mbed Provisioning App is available from the Apple App Store [LINK]. Currentl
 
 The client library for mbed OS is available via the Yotta registry [LINK TO REGISTRY].
 
-You can find the client library documentation [here](https://github.com/ARMmbed/voytalk-cpp)
+You can find the client library documentation [here](https://github.com/ARMmbed/equip-cpp)
 
