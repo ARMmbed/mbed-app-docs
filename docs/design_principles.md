@@ -1,6 +1,6 @@
 # Design Principles
 
-This section is intended to give you an overview and some rationale for the design decisions we made when developing the provisioning protocols. It’s not essential to read this to use the mbed Provisioning App but may be interesting.
+This section is intended to give you an overview and some rationale for the design decisions we made when developing the provisioning protocols. It’s not essential to read this to use the mbed App but may be interesting.
 
 
 ##RESTful
@@ -19,7 +19,7 @@ Because these resources are self contained, they allow for an efficient caching 
 
 ## Distributed
 
-Every device is a server, even if fairly passive. Devices advertise a "home URL" (via BLE for example), and everything from that point on is driven by a client browsing the resources offered by that server. This is how the mbed Provisioning Ap can discover the Intents that a device is serving.
+Every device is a server, even if fairly passive. Devices advertise a "home URL" (via BLE for example), and everything from that point on is driven by a client browsing the resources offered by that server. This is how the mbed Ap can discover the Intents that a device is serving.
 
 The home URL must offer a home resource which contains:
 

@@ -1,4 +1,4 @@
-site_name: mbed Provisioning App
+site_name: mbed App
 
 docs_dir: docs
 
@@ -8,7 +8,7 @@ use_directory_urls: true
 
 pages:
 - ['index.md', 'Getting Started']
-- ['what_is_provisioning.md', 'About', "What's the mbed Provisioning App?"]
+- ['what_is_provisioning.md', 'About', "What's the mbed App?"]
 - ['use_cases.md', 'About', 'Example Use Cases']
 - ['concepts.md', 'About', 'Concepts']
 - ['design_principles.md', 'About', 'Design Principles']

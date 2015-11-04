@@ -2,9 +2,9 @@
 
 Looking to get started quickly? You’ll need a smartphone, a web browser, and a development board that supports both BLE and mbed OS [BLE APIs](http://docs.mbed.org/docs/ble-intros/en/latest/). Follow these simple instructions to run one of our demo applications:
 
-1. Download the [mbed Provisioning app](faqs.md#how-do-i-get-the-app) to your smartphone.
+1. Download the [mbed app](faqs.md#how-do-i-get-the-app) to your smartphone.
 2. Compile and flash a [demo application](https://github.com/ARMmbed/equip-hello-mbed) onto your chosen development board.
-3. Open up the mbed Provisioning App and select the device from the list. Follow the instructions in the app.
+3. Open up the mbed App and select the device from the list. Follow the instructions in the app.
 4. Let us know what you think!
 
 
@@ -16,4 +16,4 @@ Alternatively, to get to know how to use the mbed Provisioing App in detail, her
 
 [Get the mbed Prvisioning App](faqs.md#how-do-i-get-the-app)
 
-[Client Libraries](faqs.md#how-do-i-use-mbed-provisioning-app-with-mbed-os)
+[Client Libraries](faqs.md#how-do-i-use-mbed-app-with-mbed-os)
