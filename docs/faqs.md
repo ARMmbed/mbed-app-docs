@@ -2,7 +2,7 @@
 
 ### When is mbed App useful?
 
-![Timeline](../IMG_Assets/IMG_Usage (envoy).png)
+![Timeline](../images/usage.png)
 
 The mbed App is intended to be used at the first setup of a device for configuring settings that are common to many types of devices (for example WiFi network configuration), and may subsequently be used to reconfigure a device if the user would like to alter settings during regular use.
 

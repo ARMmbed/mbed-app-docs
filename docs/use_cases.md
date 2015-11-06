@@ -1,7 +1,7 @@
 
 ## WiFi Configuration
 
-![Wifi](../IMG_Assets/IMG_WiFiConfig (envoy).png)
+![Wifi](../images/wificonfig.png)
 
 A simple example of configuration data that is often required during the setup of a new device is WiFi credentials. Typing in details repeatedly, and the struggle to remember the right password, are familiar to most people.
 
