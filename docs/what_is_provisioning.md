@@ -7,7 +7,7 @@ The mbed App provides a simple, flexible system for a device to ask for input fr
 
 ### What do I need to use the mbed App with my product?
 
-The mbed App uses Bluetooth Low Energy (BLE) technology to communicate configuration information from a smartphone, tablet or wearable device to a device that needs configuration. This means that to use the app to set up your product you need to make sure BLE is designed in. We provide a set of libraries for use with mbed OS to make building connected devices fast and scalable.
+The mbed App uses Bluetooth Low Energy (BLE) technology to communicate configuration information from a smartphone to an mbed OS device that needs configuration. This means that to use the app to set up your product you need to make sure BLE is designed in. We provide a set of libraries for use with mbed OS to make building connected devices fast and scalable.
 
 ### What do my customers need to setup their devices?
 
