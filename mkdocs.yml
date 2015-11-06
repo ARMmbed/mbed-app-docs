@@ -2,8 +2,6 @@ site_name: mbed App
 
 docs_dir: docs
 
-theme: readthedocs
-
 use_directory_urls: true
 
 pages:

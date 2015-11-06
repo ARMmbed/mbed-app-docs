@@ -33,11 +33,11 @@ When your Intent is ready for publication to the registry, email info@mbed.com a
 
 ### How do I get the App?
 
-The mbed App is available from the Apple App Store [LINK]. Currently only iOS is supported. 
+The mbed App is available from the Apple App Store. Currently only iOS is supported. 
 
 ### How do I use mbed Privsioning App with mbed OS?
 
-The client library for mbed OS is available via the Yotta registry [LINK TO REGISTRY].
+The client library for mbed OS is available via the [Yotta registry](https://yotta.mbed.com/#/module/equip-cpp).
 
 You can find the client library documentation [here](https://github.com/ARMmbed/equip-cpp)
 
