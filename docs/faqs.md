@@ -33,7 +33,7 @@ When your Intent is ready for publication to the registry, email info@mbed.com a
 
 ### How do I get the App?
 
-The mbed App is available from the Apple App Store. Currently only iOS is supported. 
+The mbed App is available from the [Apple App Store](https://itunes.apple.com/us/app/mbed-provisioning/id1041962636). Currently only iOS is supported. 
 
 ### How do I use mbed Privsioning App with mbed OS?
 
